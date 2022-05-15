@@ -1,0 +1,492 @@
+:root{
+    --warnaUtama: #333333;
+    --warnaKedua: #C4C4C4;
+    --warnaAksen: #cc2020;
+    --metaInfo : #A9A9A9;
+
+}
+
+a {
+    text-decoration: none !important;
+}
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body, html{
+    height: 100%;
+}
+
+
+/* Navbar */
+.navbar-brand img{
+    height: 50px;
+    width: auto;
+}
+
+.navbar-nav a.nav-link{
+    font-weight: 500;
+}
+
+
+/* Big Picture */
+.section-besar{
+    background-image: url("../img/bg-landing.png");
+    height: 540px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 80px;
+}
+
+.text-besar h3{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.text-besar h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--warnaAksen);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Pubs-Section */
+.pubs-hero{
+    background-image: url("../img/library.png");
+    height: 640px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+}
+
+.pubs-list p.info-meta{
+    font-size: 15px;
+    color: var(--metaInfo);
+    margin: 0px;
+}
+
+.pubs-list a.judul-artikel{
+    font-size: 20px;
+}
+
+
+
+/* What We Do */
+.wwd {
+    background-color: var(--warnaKedua);
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    margin-top: -170px;
+    box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.25);
+}
+
+.wwd h3{
+    font-weight: 600;
+}
+
+.wwd h3::after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid var(--warnaAksen);
+    width: 10%;
+    margin-top: 6px;
+    margin: auto;
+}
+
+.wwd .card-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--warnaAksen);
+}
+
+.wwd p.card-text{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.wwd .card{
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Latest Article */
+.section{
+    margin-top: 25px;
+}
+
+.artikel-latest, .artikel{
+    margin-bottom: 25px;
+}
+
+.section h3{
+    font-size: 33px;
+    margin-bottom: 30px;
+}
+
+h3.judul-section::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid var(--warnaAksen);
+    width: 10%;
+    margin-top: 6px;
+    margin: auto;
+}
+
+h3.angka{
+    color: var(--warnaKedua);
+}
+
+a.judul-artikel{
+    font-weight: 700;
+    margin-bottom: 0;
+    color: var(--warnaUtama);
+    text-decoration: none;
+    transition: color 0.2s linear 0s;
+}
+
+a.judul-artikel:hover{
+    color: var(--warnaAksen);
+    
+}
+
+.artikel-latest a.judul-artikel{
+    font-size:16px;
+}
+
+.artikel a.judul-artikel{
+    font-size:17px;
+}
+
+p.info-meta{
+    margin: 0px;
+    font-size: 13px;
+}
+
+.artikel .konten-excerpt{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Single Post */
+.single-post p.info-meta{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--metaInfo);
+}
+
+.single-post p.judul-artikel{
+    font-size: 24px;
+    margin: 0px;
+    font-weight: 700;
+}
+
+.single-post div.konten-excerpt{
+    font-size: 16px;
+}
+
+#desc-title{
+    font-weight: 700;
+}
+
+.deskripsi p{
+    font-size: 16px;
+}
+
+
+/* Recent Pubs */
+.pubs{
+    margin-bottom: 40px;
+}
+
+/* Search */
+.search-form a.btn:hover{
+    background-color: var(--warnaAksen);
+}
+
+/* Footer */
+.footer-section{
+    background-color: var(--warnaUtama);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 30px;
+}
+
+.footer-section p{
+    color: white;
+    font-size: 14px;
+}
+
+.footer-section .social-icon .btn{
+    border-radius: 100%;
+    background-color: black;
+}
+
+.footer-section .social-icon i.bi{
+    font-size: 12px;
+    color: white;
+}
+
+/* Event Section */
+.event-list .card-title{
+    font-weight: 700;
+}
+
+.event-list .event-info, .single-event .event-info{
+    margin: 0;
+    font-size: 14px;
+}
+
+.event-list .card{
+    border-color: var(--warnaUtama) !important;
+    border-width: 1px;
+    height: 580px;
+}
+
+.event-list i.bi, .single-event i.bi{
+    color: var(--metaInfo);
+}
+
+.event-list a.judul-event{
+    font-weight: 700;
+    margin-bottom: 0;
+    color: var(--warnaUtama);
+    text-decoration: none;
+    transition: color 0.2s linear 0s;
+    font-size: 16px;
+}
+
+.event-list p.card-text{
+    font-size: 14px;
+}
+
+.event-list a.judul-event:hover{
+    color: var(--warnaAksen);
+}
+
+.event-list a.btn.btn-danger{
+    width: 100%;
+}
+
+.single-event p.judul-event{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.single-event .card-text{
+    font-size: 16px;
+}
+
+.event-detail a.btn{
+    width: 100%;
+    font-size: 18px;
+}
+
+/* WP Default Customized */
+.wp-block-embed-youtube, .wp-block-image{
+    text-align: center;
+}
+
+figure figcaption{
+    text-align: center;
+    font-size: 12px;
+}
+
+.status-404{
+    margin-bottom: 390px;
+}
+
+.zero-res{
+    margin-bottom: 150px;
+}
+
+/* TABLET BREAKPOINT */
+@media (min-width: 576px) { 
+    .event-list .card{
+        border-color: var(--warnaUtama) !important;
+        border-width: 1px;
+        height: 600px;
+    }
+}
+
+
+
+/* DESKTOP BREAKPOINT */
+@media (min-width: 992px) {
+    .navbar-brand img{
+        height: 74px;
+        width: auto;
+    }
+
+    .navbar-nav .nav-link{
+        text-transform: lowercase;
+        font-weight: bold;
+        /* text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.5); */
+    }
+
+    .navbar-nav .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 2px solid var(--warnaAksen);
+        width: 50%;
+        margin-bottom: -2px !important;
+        margin: auto;
+    }
+    
+    .section-besar, .pubs-hero{
+        margin-top: -109px;
+        padding-top: 150px;
+        height: 100%;
+    }
+
+    .text-besar h3{
+        font-weight: 700;
+        font-size: 33px;
+    }
+    
+    .text-besar h1{
+        font-weight: 700;
+        font-size: 62px;
+        color: var(--warnaAksen);
+    }
+
+    .text-besar p{
+        font-size: 20px;
+    }
+
+    .wwd {
+        margin-top: -150px;
+    }
+
+    .wwd .card{
+        height: 341px;
+        margin-top: 25px;
+        position: relative;
+    }
+    
+    .wwd p.card-text{
+        font-size: 14px;
+        font-weight: 400;
+        margin: 10px;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        left: -1%
+    }
+
+    h3.judul-section::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid var(--warnaAksen);
+        width: 10%;
+        margin-top: 6px;
+        margin: 0px !important
+    }
+
+    .pubs a.judul-artikel{
+        font-weight: 700;
+        font-size:20px;
+        margin: px 0 ;
+    }
+
+    .search-form input[type="text"]{
+        font-size: 13px; 
+        height: 100%;
+    }
+
+    .search-form a.btn{
+        font-size: 12px;
+    }
+
+    .footer-section p{
+        color: white;
+        font-size: 20px;
+    }
+
+    .social-icon a.twitter-icon:hover{
+        background-color: #1DA1F2 !important;
+    }
+
+    .social-icon a.linkedin-icon:hover{
+        background-color: #0077B5 !important;
+    }
+
+    .social-icon a.fb-icon:hover{
+        background-color: #3b5998 !important;
+    }
+
+    .social-icon a.git-icon:hover{
+        background-color: #4183C4 !important;
+    }
+
+    .social-icon a.ig-icon:hover{
+        background-color: #C13584 !important;
+    }
+
+    .social-icon a.mail-icon:hover{
+        background-color: #DB4437 !important;
+    }
+
+    .artikel a.judul-artikel{
+        font-size: 21px;
+    }
+
+    .pubs-hero{
+        height: 450px;
+    }
+    
+    .pubs-list p.info-meta{
+        font-size: 15px;
+    }
+    
+    .pubs-list a.judul-artikel{
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0px;
+    }
+
+    .single-post p.info-meta{
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--metaInfo);
+    }
+    
+    .single-post div.konten-excerpt{
+        font-size: 18px;
+    }
+    
+    .single-post p.judul-artikel{
+        font-size: 48px;
+        margin: 0px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .event-list .card{
+        border-color: var(--warnaUtama) !important;
+        border-width: 1px;
+        height: 580px;
+    }
+
+    .single-event p.judul-event{
+        font-size: 30px;
+    }
+
+    figure figcaption{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .status-404{
+        margin-bottom: 130px;
+    }
+
+
+}
