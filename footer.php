@@ -2,7 +2,7 @@
     <div class="container-fluid footer-section">
         <div class="row justify-content-center">
             <div class="col-lg-7">
-                <p class="text-center text-lg-start">Social Computing & Big Data Laboratory 2022 - Telkom University</p>
+                <p class="text-center text-lg-start">Social Computing & Big Data Laboratory <?= date('Y') ?> - Telkom University</p>
             </div>
 
             <div class="col-lg-3 social-icon text-center">

@@ -112,7 +112,7 @@
 
                 <?php 
                     $args2 = array(
-                        'post_per_page' => 3,
+                        'posts_per_page' => 4,
                         'post_type' => 'publications'
                     );
 
